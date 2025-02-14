@@ -41,7 +41,6 @@ function levelUp() {
     let randColor = btns[randIdx];
     let randBtn = document.querySelector(`.${randColor}`);
     gameSeq.push(randColor);
-    console.log(gameSeq);
     gameFlash(randBtn);
 }
 
